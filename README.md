@@ -1,6 +1,6 @@
 # 🔍 License Plate Recognition for Detecting Stolen Vehicles
 
-A real-time, intelligent system that detects license plates from vehicle images/videos and cross-verifies them against a stolen vehicles database. Built using YOLOv8, PaddleOCR, and Streamlit, this project aims to enhance security and surveillance applications through automated number plate recognition (ANPR).
+A real-time, intelligent system that detects license plates from vehicle images/videos and cross-verifies them against a stolen vehicles database. Built using YOLOv8, PaddleOCR, and Streamlit, this project provides a user-friendly interface for efficient license plate recognition and validation.
 
 ---
 
@@ -36,11 +36,11 @@ A real-time, intelligent system that detects license plates from vehicle images/
 
 | Layer         | Technology                              |
 |---------------|------------------------------------------|
-| Frontend      | Streamlit, HTML/CSS                      |
-| Backend       | Python                                   |
-| CV Models     | YOLOv11 (Ultralytics), PaddleOCR          |
-| Database      | SQLite (for detections), CSV (stolen data)|
-| Other Tools   | OpenCV, NumPy, Pandas, PIL               |
+| Frontend      | Streamlit, HTML/CSS                     |
+| Backend       | Python                                  |
+| CV Models     | YOLOv11 (Ultralytics), PaddleOCR         |
+| Database      | SQLite (for detections), CSV (stolen data) |
+| Other Tools   | OpenCV, NumPy, Pandas, PIL              |
 
 ---
 
@@ -57,38 +57,71 @@ A real-time, intelligent system that detects license plates from vehicle images/
 
 ## ⚙️ Installation
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/GudiseMeghana/LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES.git
-cd LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GudiseMeghana/LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES.git
+   cd LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES
+   ```
 
-# 2. Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+2. Create a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+   ```
 
-# 3. Install dependencies
-pip install -r requirements.txt
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ---
-## *🌐 Running the App*
+
+## 🌐 Running the App
+
+Run the application using Streamlit:
+
+```bash
 streamlit run app1.py
+```
 
-Local URL: http://localhost:8501
+Access the local app at: [http://localhost:8501](http://localhost:8501)
 
-🧪 Example Results
+---
 
-<img width="1438" alt="Screenshot 2025-04-13 at 12 58 51 AM" src="https://github.com/user-attachments/assets/5d998730-23e4-4595-b80b-86ab5203cc0d" />
-<img width="404" alt="image" src="https://github.com/user-attachments/assets/47cf5862-283d-41bc-a99b-b85ff1f56678" />
+## 🧪 Example Results
 
-📦 Datasets & Models
-	•	YOLOv11 Model: Trained on a custom dataset of license plates.
-	•	PaddleOCR: Pre-trained English model with angle classification.
-	•	Stolen Vehicles Dataset: stolen_vehicles.csv with known stolen plates.
+Below are sample outputs from the system:
 
-📌 Future Enhancements
-	•	🔁 Real-time live camera support
-	•	🌐 API endpoints using FastAPI
-	•	🔒 Authentication for dashboard access
-	•	📲 Mobile version (PWA)
-	•	📤 Export logs to Excel or PDF
-	•	📡 MQTT or WebSocket for smart surveillance use cases
+![Example Result 1](https://github.com/user-attachments/assets/5d998730-23e4-4595-b80b-86ab5203cc0d)
+![Example Result 2](https://github.com/user-attachments/assets/47cf5862-283d-41bc-a99b-b85ff1f56678)
+
+---
+
+## 📦 Datasets & Models
+
+- **YOLOv11 Model**: Trained on a custom dataset of license plates.
+- **PaddleOCR**: Pre-trained English model with angle classification.
+- **Stolen Vehicles Dataset**: `stolen_vehicles.csv` containing known stolen plates.
+
+---
+
+## 📌 Future Enhancements
+
+- 🔁 Real-time live camera support
+- 🌐 API endpoints using FastAPI
+- 🔒 Authentication for dashboard access
+- 📲 Mobile version (PWA)
+- 📤 Export logs to Excel or PDF
+- 📡 MQTT or WebSocket for smart surveillance use cases
+
+---
+
+## 🤝 Contributors
+
+We welcome contributions! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
