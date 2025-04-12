@@ -1,6 +1,6 @@
 # 🔍 License Plate Recognition for Detecting Stolen Vehicles
 
-A real-time, intelligent system that detects license plates from vehicle images/videos and cross-verifies them against a stolen vehicles database. Built using YOLOv8, PaddleOCR, and Streamlit, this project provides a user-friendly interface for efficient license plate recognition and validation.
+A real-time, intelligent system that detects license plates from vehicle images/videos and cross-verifies them against a stolen vehicles database. Built using YOLOv11, PaddleOCR, and Streamlit, this project provides a user-friendly interface for efficient license plate recognition and validation.
 
 ---
 
