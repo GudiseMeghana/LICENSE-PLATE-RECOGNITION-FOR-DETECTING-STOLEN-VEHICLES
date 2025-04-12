@@ -2,9 +2,10 @@ numpy
 opencv-python
 Pillow
 matplotlib
-torch
+torch==2.0.1
 torchvision
 paddleocr
+paddlepaddle
 onnxruntime
 imageio
 moviepy
@@ -16,5 +17,4 @@ scikit-learn
 imutils
 requests
 pandas
-ultralytics
-
+ultralytics==8.0.20
