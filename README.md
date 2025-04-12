@@ -68,3 +68,27 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 # 3. Install dependencies
 pip install -r requirements.txt
+
+---
+## *🌐 Running the App*
+streamlit run app1.py
+
+Local URL: http://localhost:8501
+
+🧪 Example Results
+
+<img width="1438" alt="Screenshot 2025-04-13 at 12 58 51 AM" src="https://github.com/user-attachments/assets/5d998730-23e4-4595-b80b-86ab5203cc0d" />
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/47cf5862-283d-41bc-a99b-b85ff1f56678" />
+
+📦 Datasets & Models
+	•	YOLOv11 Model: Trained on a custom dataset of license plates.
+	•	PaddleOCR: Pre-trained English model with angle classification.
+	•	Stolen Vehicles Dataset: stolen_vehicles.csv with known stolen plates.
+
+📌 Future Enhancements
+	•	🔁 Real-time live camera support
+	•	🌐 API endpoints using FastAPI
+	•	🔒 Authentication for dashboard access
+	•	📲 Mobile version (PWA)
+	•	📤 Export logs to Excel or PDF
+	•	📡 MQTT or WebSocket for smart surveillance use cases
