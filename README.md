@@ -22,7 +22,7 @@ A real-time, intelligent system that detects license plates from vehicle images/
 ## 🔧 Features
 
 - 🚘 Upload images or videos to detect vehicle license plates
-- 🧠 License plate detection using **YOLOv8**
+- 🧠 License plate detection using **YOLOv11**
 - 🔤 Text extraction using **PaddleOCR**
 - 📋 Match against a **stolen vehicles database**
 - 📸 Real-time frame-by-frame video analysis
