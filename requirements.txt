@@ -5,7 +5,7 @@ matplotlib
 torch==2.0.1
 torchvision
 paddleocr
-paddlepaddle
+paddlepaddle==2.5.0
 onnxruntime
 imageio
 moviepy
