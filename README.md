@@ -47,7 +47,7 @@ A real-time, intelligent system that detects license plates from vehicle images/
 ## 🚀 How It Works
 
 1. **Upload** an image or video.
-2. **Detect** license plates using a YOLOv8 custom model.
+2. **Detect** license plates using a YOLOv11 custom model.
 3. **Extract text** from plates using PaddleOCR.
 4. **Check** if the plate exists in the `stolen_vehicles.csv`.
 5. **Store results** in SQLite for record keeping.
