@@ -84,7 +84,6 @@ Run the application using Streamlit:
 streamlit run app1.py
 ```
 
-Access the local app at: [http://localhost:8501](http://localhost:8501)
 
 ---
 
