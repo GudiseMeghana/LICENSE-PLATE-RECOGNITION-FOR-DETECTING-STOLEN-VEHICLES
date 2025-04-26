@@ -93,7 +93,7 @@ Access the local app at: [http://localhost:8501](http://localhost:8501)
 Below are sample outputs from the system:
 
 ![Example Result 1](https://github.com/user-attachments/assets/5d998730-23e4-4595-b80b-86ab5203cc0d)
-![Example Result 2](https://github.com/user-attachments/assets/47cf5862-283d-41bc-a99b-b85ff1f56678)
+![Example Result 2](https://github.com/user-attachments/assets/c1bececd-ddbe-4ecb-a6ae-698af0c9d3ff)
 
 ---
 
