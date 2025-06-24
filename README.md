@@ -1,8 +1,11 @@
-# 🔍 License Plate Recognition for Detecting Stolen Vehicles
+<p align="center">
+  <!-- Language badges -->
+  <img src="https://img.shields.io/badge/Jupyter%20Notebook-orange?logo=Jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+</p>
 
-![License](https://img.shields.io/github/license/GudiseMeghana/LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES)
-![Stars](https://img.shields.io/github/stars/GudiseMeghana/LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES)
-![Issues](https://img.shields.io/github/issues/GudiseMeghana/LICENSE-PLATE-RECOGNITION-FOR-DETECTING-STOLEN-VEHICLES)
+<h1 align="center">LICENSE PLATE RECOGNITION FOR DETECTING STOLEN VEHICLES</h1>
+
 
 ## 🚗 Overview
 
